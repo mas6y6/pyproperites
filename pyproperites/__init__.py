@@ -1,1 +1,1 @@
-from .read import loader
+from .read import load
