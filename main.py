@@ -1,3 +1,3 @@
-import pyproperites
+import pyproperties
 
-print(pyproperites.load("test.properites").read('das'))
+prop = pyproperties.Properties(open("prop.properties","r"))
